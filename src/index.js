@@ -10,6 +10,47 @@ function getUserProfileUrl() {
   ]);
 }
 
+/**
+ * @description Retrieve the app authors avatar from GitHub
+ * @returns {Object} A promise for the GitHub profile avatar
+ */
+function getReposAndEvents() {
+  return gitaclue.get([
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-0', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-1', segments: ['events']},
+    /*
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-2', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-3', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-4', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-5', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-6', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-7', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-8', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-9', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-10', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-11', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-12', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-13', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-14', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-15', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-16', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-17', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-18', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-19', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-20', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-21', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-22', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-23', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-24', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-25', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-26', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-27', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-28', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-29', segments: ['events']},
+    */
+  ]);
+}
+
 $(document).ready(function() {
   console.clear();
 
@@ -42,7 +83,17 @@ $(document).ready(function() {
   });
 
   $( '.voyage-get-events' ).on( 'click', () => {
-    console.log('Get me some events');
+    getReposAndEvents()
+    .then((reposAndEvents) => {
+      console.log(reposAndEvents);
+      $('#export-json').text(
+        JSON.stringify(reposAndEvents, null, 2)
+      );
+    });
+  });
+
+  $( '.export-cancel' ).on( 'click', function() {
+    $( '#export-json' ).val('');
   });
 
   $( '.export-save' ).on( 'click', function() {
