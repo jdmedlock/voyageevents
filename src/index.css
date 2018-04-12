@@ -1,0 +1,91 @@
+html {
+  font-family: Roboto, "Open Sans", Verdana, sans-serif;
+}
+a {
+  outline: none;
+}
+.label {
+  color: #3f51b5;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin: auto auto auto auto;
+  text-align: center;
+  width: 100%;
+}
+.mdl-dialog {
+  width: fit-content;
+  min-width: 45%;
+}
+.material-icons {
+  color: #808080;
+}
+.page-wrapper {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: auto auto auto auto;
+  width: 100%;
+}
+.page-content {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: 20px auto auto auto;
+  width: 80%;
+}
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto auto auto;
+  width: 100%;
+}
+.voyage-input {
+  justify-content: center;
+  margin: 10px auto 15px auto;
+}
+.voyage-repo-events {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: 10px auto 15px auto;
+}
+.export-text {
+  font-size: 10px;
+  justify-content: center;
+  margin: auto auto auto auto;
+  width: 100%;
+}
+#export-json {
+  text-align: center;
+  margin: auto auto auto auto;
+}
+.export-buttons {
+  justify-content: space-between;
+  margin: auto auto auto auto;
+}
+.copyright {
+  color: #808080;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.about-link {
+  color: #808080;
+  text-decoration: none;
+}
+.about-dialog-content {
+  margin: 0;
+  padding: 0;
+}
+#about-avatar {
+  width: 40%;
+  height: 40%;
+  margin: 10px auto auto auto;
+  display: inline-block;
+}
+.about-text {
+  width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "voyageevents",
+  "version": "1.0.0",
+  "description": "Pull and aggregate events for all repos in a GitHub Organization",
+  "private": true,
+  "dependencies": {
+    "dialog-polyfill": "^0.4.9",
+    "gitaclue": "^0.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "build": "stylus src/index.styl -o src/index.css & npx webpack --config webpack.config.js",
+    "stylus-watch": "stylus -w src/index.styl -o src/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmedlock/voyageevents.git"
+  },
+  "keywords": [
+    "node",
+    "github"
+  ],
+  "author": "Jim Medlock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdmedlock/voyageevents/issues"
+  },
+  "homepage": "https://github.com/jdmedlock/voyageevents#readme"
+}
