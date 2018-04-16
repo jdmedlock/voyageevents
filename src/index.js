@@ -18,7 +18,6 @@ function getReposAndEvents() {
   return gitaclue.get([
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-0', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-1', segments: ['events']},
-    /*
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-2', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-3', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-4', segments: ['events']},
@@ -47,7 +46,6 @@ function getReposAndEvents() {
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-27', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-28', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-29', segments: ['events']},
-    */
   ]);
 }
 
@@ -86,9 +84,7 @@ $(document).ready(function() {
     getReposAndEvents()
     .then((reposAndEvents) => {
       console.log(reposAndEvents);
-      $('#export-json').text(
-        JSON.stringify(reposAndEvents, null, 2)
-      );
+      $('#export-json').text(reposAndEvents);
     });
   });
 
