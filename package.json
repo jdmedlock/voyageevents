@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "dialog-polyfill": "^0.4.9",
-    "gitaclue": "^1.0.0"
+    "gitaclue": "^1.1.1"
   },
   "devDependencies": {
     "webpack": "^4.5.0",

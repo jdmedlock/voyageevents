@@ -46,6 +46,60 @@ function getReposAndEvents() {
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-27', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-28', segments: ['events']},
     { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Bears-Team-29', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-0', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-1', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-2', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-3', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-4', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-5', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-6', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-7', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-8', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-9', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-10', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-11', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-12', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-13', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-14', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-15', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-16', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-17', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-18', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-19', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-20', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-21', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-22', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-23', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-24', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-25', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-26', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-27', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-28', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-29', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-30', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-31', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-32', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-33', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-34', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-35', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Geckos-Team-36', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-0', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-1', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-2', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-3', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-4', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-5', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-6', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-7', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-8', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-9', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-10', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-11', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-12', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-13', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-14', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-15', segments: ['events']},
+    { context: 'repo', contextOwner: 'chingu-voyage4', contextName: 'Toucans-Team-16', segments: ['events']},
   ]);
 }
 
@@ -63,7 +117,8 @@ $(document).ready(function() {
   $( ".about-link" ).on( "click", function() {
     getUserProfileUrl()
     .then(response => {
-      $( "#about-avatar" ).attr("src",(JSON.parse(response).user.avatar_url));
+      console.log(response);
+      $( "#about-avatar" ).attr("src",(JSON.parse(response)[0].user.avatar_url));
       aboutDialog.showModal();
     });
   });
